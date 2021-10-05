@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pseudo Class selectors</title>
+<style type="text/css">
+	/* psudo style here .*/
+
+	/*Remove bullet point from unordered list*/
+
+	header li {
+		list-style: none;
+	}
+
+	a:link, a:visited {
+		text-decoration: none;
+		background-color: pink;
+		border: 2px solid green;
+		color: black;
+		display: block;
+		width: 200px;
+		text-align: center;
+		margin-bottom: 1px;
+
+	}
+
+	a:hover, a:active{
+		background-color: yellow;
+		color: red;
+	}
+
+	header li:nth-child(3){
+		font-size: 24px;
+	}
+
+	section div:nth-child(odd) {
+		background-color: gray
+	
+	}
+	section div:nth-child(4):hover {
+		background-color: green;
+		cursor: pointer;
+	}
+
+</style>
+
+
+</head>
+<body>
+	<h1>Pseudo class selector</h1>
+	
+	<header>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="http://goo.gl/VOWl6s" target="blank">AngeularJS Course</a></li>
+			<li><a href="http://www.facebook.com/HFHTECHIMAN" target="bla">Facebook Page</a></li>
+		</ul>
+	</header>
+
+	<section>
+		<div>div 1</div>
+		<div>div 2</div>
+		<div>div 3</div>
+		<div>div 4</div>
+		<div>div 5</div>
+		<div>div 6</div>
+		<div>div 6</div>
+		<div>div 7</div>
+		<div>div 8</div>
+		<div>div 9</div>
+		<div>div 10</div>
+		<div>div 12</div>
+		<div>div 13</div>
+		<div>div 14</div>
+		<div>div 15</div>
+		<div>div 16</div>
+		<div>div 17</div>
+		<div>div 18</div>
+		<div>div 19</div>
+		<div>div 20</div>
+	</section>
+</body>
+</html>
